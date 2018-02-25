@@ -148,7 +148,7 @@ body {
 }
 
 .features{
-	height: 470px;
+	height: 420px;
 }
 
 
@@ -195,7 +195,7 @@ body {
 .folder-icon{
 	background-image: url(../img/sprite.png);
 	background-repeat: no-repeat;
-	background-position: 100% -4px;
+	background-position: 103% -4px;
 }
 
 .tag-icon{
@@ -213,7 +213,7 @@ body {
 .download-icon{
 	background-image: url(../img/sprite.png);
 	background-repeat: no-repeat;
-	background-position: 97% 93%;
+	background-position: 109% 93%;
 }
 
 
@@ -249,8 +249,9 @@ body {
 
 .feedback-title{
 	padding-top: 95px;
+	font-family: "PT Sans";
 	font-size: 32px;
-	font-weight: bold;
+	font-weight: normal;
 	line-height: 32px;
 	color: #fcdb00;
 }
@@ -301,6 +302,8 @@ input[type="Email"]::-webkit-input-placeholder {
 }
 
 footer{
+	padding-left: 60px;
+	padding-bottom: 0px;
 	background-color: #010101;
 	font-size: 16px;
 	line-height: 20px;
@@ -349,13 +352,15 @@ footer{
 }
 
 .footer-bottom{
-	margin-top: 130px;
-	padding-bottom: 130px;
+	margin-top: 100px;
+	padding-bottom: 70px;
 	margin-left: 30px;
+	border: 1px solid yellow;
 }
 
 .footer-bottom div{
 	display: inline-block;
+	vertical-align: top;
 }
 
 .footer-nav li{
@@ -365,10 +370,15 @@ footer{
 .footer-nav ul{
 	padding: 0;
 	margin: 0;
+	padding-top: 20px;
 }
 
 .footer-nav div{
-	margin-left: 99px;
+	margin-left: 110px;
+}
+
+.footer-nav div:last-child{
+	margin-left: 75px;
 }
 
 .footer-nav a{

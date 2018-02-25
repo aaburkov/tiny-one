@@ -9,15 +9,35 @@ body{
 }
 
 .main-header{
+  width: 100%;
   background-color: #fcdb00;
   padding-top: 60px;
-  padding-left: 33px;
+  padding-left: 16px;
+}
+a{
+  text-decoration: none;
+}
+.header-logo{
+  line-height: 43px;
+   border: 1px solid black;
+}
+
+.brandname{
+  display: inline-block;
+  margin-top: -40px;
+  margin-left: 10px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #111;
+  font-style: normal;
+  border: 1px solid black;
 }
 
 .main-nav{
   position: absolute;
-  top: 75px;
-  right: 175px;
+  top:0px;
+  right: 0px;
 }
 
 .container{
@@ -28,6 +48,8 @@ body{
 .main-nav ul{
   padding: 0;
   margin: 0;
+  color: #111;
+  text-decoration: none;
 }
 
 .main-nav li{
@@ -47,9 +69,4 @@ body{
   margin-right: 67px;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-}
-
-.main-nav a{
-  color: #111;
-  text-decoration: none;
 }
